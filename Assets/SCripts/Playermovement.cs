@@ -25,11 +25,7 @@ public class Playermovement : MonoBehaviour
         {
             transform.position += Vector3.back * speed * Time.deltaTime;
         }
-       /* else if(Input.GetKey(KeyCode.Space)) jump logic to be continued
-        {
-            transform.position += Vector3.up * speed * Time.deltaTime;
-            
-        }*/
+     
 
     }
 }
